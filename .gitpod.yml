@@ -1,0 +1,10 @@
+tasks:
+  - name: setup
+    init: |
+      pip install djlint
+
+vscode:
+  extensions:
+    - "batisteo.vscode-django"
+    - "monosans.djlint"
+    - "ms-python.python"
